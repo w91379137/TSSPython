@@ -8,12 +8,10 @@ import matplotlib.pyplot as plt
 
 def printx(string, obj) :
     print "\n" + string + " \n" + str(obj)
+#printx("",)
 
-arr = np.zeros(2, dtype = int)
-printx("np.zeros(2, dtype = int)",arr)
-
-arr = np.zeros(2, dtype = np.float32)
-printx("np.zeros(2, dtype = np.float32)",arr)
+printx("np.zeros(2, dtype = int)",np.zeros(2, dtype = int))
+printx("np.zeros(2, dtype = np.float32)",np.zeros(2, dtype = np.float32))
 
 arr1d = np.arange(8)
 printx("np.arange(10)",arr1d)
